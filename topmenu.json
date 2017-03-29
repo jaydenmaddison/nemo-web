@@ -1,0 +1,51 @@
+{
+  "menuItems": [
+    {
+      "name": "Accounts",
+      "action": "view.accounts",
+      "order": 1,
+      "children": [
+        {
+          "name": "Transfer Funds",
+          "action": "transfer.funds.account",
+          "order": 1,
+          "children": [
+            
+          ]
+        },
+        {
+          "name": "Change Address",
+          "action": "change.account.address",
+          "order": 2,
+          "children": [
+            
+          ]
+        },
+        {
+          "name": "Account Transactions",
+          "action": "view.account.transactions",
+          "order": 3,
+          "children": [
+            
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funds",
+      "action": "add.funds.account",
+      "order": 1,
+      "children": [
+        
+      ]
+    },
+    {
+      "name": "Cards",
+      "action": "add.funds.card",
+      "order": 1,
+      "children": [
+        
+      ]
+    }
+  ]
+}
